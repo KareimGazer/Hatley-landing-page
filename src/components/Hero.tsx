@@ -28,10 +28,10 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         <h1 className="text-white text-5xl font-bold mb-4">
-          Discover restaurants and more near you.
+          "اكتشف المحلات والمزيد جمبك"
         </h1>
         <p className="text-white/90 text-xl mb-8 max-w-2xl mx-auto">
-          Get your favorite food, groceries, and more delivered right to your door with Hatley.
+          "خد اكلك اللي بتحبه والبقالة و البضاعة واكتر كمان يوصل لحد بابك مع هاتلي"
         </p>
         
         {/* Search input */}
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="relative">
             <input
               type="text"
-              placeholder="Enter delivery address"
+              placeholder="ادخل عنوان التوصيل"
               className="w-full px-12 py-4 rounded-full text-lg focus:outline-none"
             />
             <span className="absolute left-4 top-1/2 -translate-y-1/2">
@@ -81,20 +81,7 @@ export default function Hero() {
           </div>
           
           <button className="mt-4 text-white flex items-center gap-2 mx-auto">
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              />
-            </svg>
-            Sign in for saved address
+            "سجل دخول لحفظ العنوان"
           </button>
         </div>
       </div>

@@ -3,29 +3,29 @@ import Image from 'next/image'
 export default function Features() {
   const features = [
     {
-      title: "Become a Merchant",
-      description: "Attract new customers and grow sales, starting with 0% commissions for up to 30 days.",
+      title: "كن تاجراً",
+      description: "اجذب عملاء جدد وزود مبيعاتك، ابدأ مع 0% عمولة لمدة 30 يوم",
       image: "/images/features/Storefront.svg",
       cta: {
-        text: "Sign up for DoorDash",
+        text: "سجل مع هاتلي",
         link: "#"
       }
     },
     {
-      title: "Get the best DoorDash experience",
-      description: "Experience the best your neighborhood has to offer, all in one app.",
+      title: "احصل على أفضل تجربة مع هاتلي",
+      description: "استمتع بأفضل ما يقدمه حيك، كله في تطبيق واحد",
       image: "/images/features/iphone.svg",
       cta: {
-        text: "Get the app",
+        text: "حمل التطبيق",
         link: "#"
       }
     },
     {
-      title: "Become a Partner",
-      description: "Grow your business and reach new customers by partnering with Hatley",
+      title: "كن شريكاً",
+      description: "نمي مشروعك واوصل لعملاء جدد بالشراكة مع هاتلي",
       image: "/images/features/ScootScoot.svg",
       cta: {
-        text: "Sign up for Hatley",
+        text: "سجل كشريك",
         link: "#"
       }
     }

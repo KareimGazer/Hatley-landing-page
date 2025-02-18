@@ -29,10 +29,10 @@ export default function Navbar() {
           {/* Right side buttons */}
           <div className="flex items-center gap-4">
             <button className="text-secondary hover:text-secondary-hover transition-colors px-4 py-2">
-              Sign In
+              "تسجيل دخول"
             </button>
             <button className="px-4 py-2 bg-secondary text-white rounded-full hover:bg-secondary-hover transition-colors">
-              Sign Up
+              "إنشاء حساب"
             </button>
           </div>
         </div>

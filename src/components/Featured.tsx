@@ -28,7 +28,7 @@ export default function Featured() {
     <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <p className="text-center text-gray-600 text-sm uppercase tracking-wider mb-8">
-          Featured in
+          تلاقيه علي
         </p>
         <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8">
           {publications.map((pub, index) => (

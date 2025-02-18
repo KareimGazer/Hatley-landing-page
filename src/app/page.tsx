@@ -20,21 +20,21 @@ export default function Home() {
         <GrocerySection />
         <CraveSection 
           direction="left"
-          title="Everything you\ncrave, delivered."
-          subtitle="Your favorite local restaurants"
-          description="Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try."
-          buttonText="Find restaurants"
+          title="كل اللي نفسك فيه هيوصل لحد عندك"
+          subtitle="محلاتك المفضلة"
+          description="اطلب بيتزا سلايس او البيتزا كاملة، او جرب الأكل الصيني اللي كنت عايز تجربه"
+          buttonText="ابحث عن المطاعم"
           imageSrc="/images/enjoy.jpg"
-          imageAlt="Person enjoying food at a picnic"
+          imageAlt="شخص يستمتع بالطعام"
         />
         <CraveSection 
           direction="right"
-          title="Deliver with\nDoorDash"
-          subtitle="Make money on your schedule"
-          description="Earn money by delivering food orders, groceries, and more. Plus, get 100% of your tips, always."
-          buttonText="Start earning"
+          title="وصل مع هاتلي"
+          subtitle="اكسب فلوس على مزاجك"
+          description="اكسب فلوس بتوصيل طلبات الأكل والبقالة و البضاعة وغيرها. وخد 100% من التيبس"
+          buttonText="ابدأ الكسب"
           imageSrc="/images/deliver.jpg"
-          imageAlt="Person delivering food"
+          imageAlt="شخص يقوم بالتوصيل"
         />
       </main>
       <Footer />

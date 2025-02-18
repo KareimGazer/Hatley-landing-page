@@ -3,35 +3,35 @@ import Image from 'next/image'
 
 export default function Footer() {
   const footerSections = {
-    'Get to Know Us': [
-      'About Us',
-      'Careers',
-      'Investors',
-      'Company Blog',
-      'Engineering Blog',
-      'Merchant Blog',
-      'Gift Cards',
-      'Promotions',
-      'Dasher Central'
+    'تعرف علينا': [
+      'عن هاتلي',
+      'وظائف',
+      'المستثمرين',
+      'مدونة الشركة',
+      'المدونة التقنية',
+      'مدونة التجار',
+      'بطاقات الهدايا',
+      'العروض',
+      'مركز الشركاء'
     ],
-    'Let Us Help You': [
-      'Account Details',
-      'Order History',
-      'Help Center',
-      'DoorDash Stories',
-      'COVID-19 Updates',
-      'Corporate Orders',
-      'Privacy Policy',
-      'Terms of Service',
-      'Accessibility'
+    'خدمة العملاء': [
+      'تفاصيل الحساب',
+      'سجل الطلبات',
+      'مركز المساعدة',
+      'قصص هاتلي',
+      'تحديثات كورونا',
+      'طلبات الشركات',
+      'سياسة الخصوصية',
+      'شروط الخدمة',
+      'إمكانية الوصول'
     ],
-    'Doing Business': [
-      'Become a Dasher',
-      'Be a Partner Restaurant',
-      'Get Dashers for Deliveries',
-      'Get DoorDash for Work',
-      'Partnership Inquiries',
-      'DoorDash Drive'
+    'شركاء النجاح': [
+      'كن شريك توصيل',
+      'سجل مطعمك',
+      'اطلب مندوبين للتوصيل',
+      'هاتلي للشركات',
+      'استفسارات الشراكة',
+      'خدمة هاتلي درايف'
     ],
   }
 
@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="mb-8 md:mb-0">
             <Image
               src="/images/hatley.png"
-              alt="Hatley"
+              alt="هاتلي"
               width={130}
               height={28}
               className="mb-4"
@@ -104,13 +104,13 @@ export default function Footer() {
         <div className="pt-8 mt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Hatley. All rights reserved.
+              © {new Date().getFullYear()} هاتلي. جميع الحقوق محفوظة.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="transition-opacity hover:opacity-80">
                 <Image
                   src="/images/app-store.png"
-                  alt="Download on the App Store"
+                  alt="حمل التطبيق من آب ستور"
                   width={100}
                   height={20}
                 />
@@ -118,7 +118,7 @@ export default function Footer() {
               <Link href="#" className="transition-opacity hover:opacity-80">
                 <Image
                   src="/images/google-play.png"
-                  alt="Get it on Google Play"
+                  alt="حمل التطبيق من جوجل بلاي"
                   width={100}
                   height={20}
                 />
