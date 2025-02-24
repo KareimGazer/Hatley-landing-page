@@ -5,22 +5,10 @@ export default function Hero() {
     <section className="relative bg-gradient-to-b from-[#FF3008] to-[#FF5733] min-h-[600px] px-4 py-16">
       {/* Background food images */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
-        <div className="absolute top-4 left-4">
-          <Image
-            src="/images/broccoli.png"
+        <div className="absolute">
+          <img
+            src="/ramadan-bg.png"
             alt="Broccoli dish"
-            width={200}
-            height={200}
-            className="rounded-full"
-          />
-        </div>
-        <div className="absolute bottom-4 right-4">
-          <Image
-            src="/images/tacos.png"
-            alt="Tacos"
-            width={300}
-            height={300}
-            className="rounded-full"
           />
         </div>
       </div>
