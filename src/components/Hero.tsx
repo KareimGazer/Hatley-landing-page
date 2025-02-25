@@ -6,9 +6,12 @@ export default function Hero() {
       {/* Background food images */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <div className="absolute">
-          <img
+          <Image
             src="/ramadan-bg.png"
-            alt="Broccoli dish"
+            width={1600}
+            height={900}
+            className="hidden lg:block"
+            alt="ramadanian background"
           />
         </div>
       </div>

@@ -79,7 +79,7 @@ export default function Footer() {
           </div>
 
           {/* Footer links sections */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full md:w-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 w-full md:w-auto gap-8 lg:gap-24">
             {Object.entries(footerSections).map(([title, links]) => (
               <div key={title} className="space-y-4">
                 <h3 className="font-bold text-gray-900">{title}</h3>

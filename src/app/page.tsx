@@ -21,8 +21,8 @@ export default function Home() {
         <CraveSection 
           direction="left"
           title="كل اللي نفسك فيه هيوصل لحد عندك"
-          subtitle="محلاتك المفضلة"
-          description="اطلب بيتزا سلايس او البيتزا كاملة، او جرب الأكل الصيني اللي كنت عايز تجربه"
+          subtitle="محلاتك اللي بتحبها"
+          description="اطلب كل الاكل اللي تحبة دلوقتي هتلاقي كل المطاعم والمحلات اللي بتحبها ليك علي هاتلي"
           buttonText="ابحث عن المطاعم"
           imageSrc="/images/enjoy.jpg"
           imageAlt="شخص يستمتع بالطعام"
